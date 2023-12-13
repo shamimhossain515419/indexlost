@@ -1,0 +1,19 @@
+.button {
+     display: flex;
+     padding: 20px 30px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 8px;
+     background: var(--Primary, #F84C03);
+}
+
+.button button {
+     color: #FFF;
+     text-align: center;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+     letter-spacing: -0.144px;
+}

@@ -1,0 +1,90 @@
+.banner {
+     background: linear-gradient(to right, #FAEEF3, #FEF2EC);
+     width: 100%;
+     padding: 10px;
+     min-height: 400px;
+}
+
+.bannerImage {
+     display: flex;
+     justify-content: center;
+
+}
+
+.bannerText {
+     border-radius: 12px;
+     background: var(--White, #FFF);
+     box-shadow: 8px 16px 40px 0px rgba(43, 43, 43, 0.10);
+     padding: 15px;
+}
+
+.bannerText .fruitSelect {
+     width: 100%;
+     border: none;
+     outline: none;
+     font-size: 19px;
+}
+
+.bannerText .fruitSelect option {
+     border: none !important;
+     outline: none;
+}
+
+.bannerText .bar {
+     min-height: 50px;
+     width: 3px;
+     background: #212529;
+}
+
+.bannerText input {
+     border: none;
+     outline: none;
+     font-size: 19px;
+     color: #212529;
+}
+
+.bannerText input::placeholder {
+     font-size: 19px;
+     color: #212529;
+}
+
+
+.SearchButton {
+     background: #FE4A23;
+     border-radius: 50px !important;
+     font-weight: bold;
+     border: 1px solid #FE4A23;
+     color: #fff;
+     line-height: 18px;
+     padding: 15px 35px;
+     font-size: 20px;
+     font-family: -apple-system;
+     transition: .4s ease-in-out;
+
+}
+
+.SearchButton:hover {
+     background: var(--Heading, #2B2B2B);
+
+     border: 1px solid #2B2B2B;
+}
+
+.counter_up li span {
+
+     font-size: 30px;
+     font-weight: 700;
+
+
+
+}
+
+.counter_up li p {
+
+     color: #5F5F5F;
+     font-size: 20px;
+     font-weight: 500;
+     display: block;
+     margin-bottom: 0;
+
+
+}

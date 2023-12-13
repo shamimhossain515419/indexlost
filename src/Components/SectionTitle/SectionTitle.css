@@ -1,0 +1,23 @@
+h1 {
+     color: rgba(0, 0, 0, 0.9);
+     font-weight: bold;
+     position: relative;
+     
+     font-size: 30px;
+}
+
+h1 span {
+     color: #F84C03;
+     font-weight: bold;
+     position: relative;
+     
+     font-size: 30px;
+}
+
+p {
+     color: rgb(0 0 0/.6);
+     font-weight: bold;
+     margin: 0px;
+     position: relative;
+     font-size: 20px;
+}

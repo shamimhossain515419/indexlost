@@ -3,25 +3,38 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: #F4F2EE;
+
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  :root {}
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--background);
+
+  font-family: -apple-system;
+  font-style: normal;
+}
+
+.primaryBg {
+  background: var(--Primary, #F84C03);
+}
+
+.primaryColor {
+  color: var(--Primary, #F84C03);
+}
+
+.logo h1 {
+
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.logo h1 span {
+  font-size: 35px;
+  color: var(--Primary, #F84C03)
 }
