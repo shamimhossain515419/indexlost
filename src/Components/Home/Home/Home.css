@@ -88,3 +88,141 @@
 
 
 }
+
+.Available {
+     border-radius: 12px;
+     background: var(--White, #FFF);
+     padding: 15px 20px;
+     transition: 1s ease;
+
+
+}
+
+.Available h1 {
+     color: var(--Heading, #2B2B2B);
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 32px;
+     letter-spacing: -0.24px;
+     padding: 5px 0px;
+}
+
+.Available p {
+     color: var(--Text-Light, #555);
+     font-family: Readex Pro;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+     letter-spacing: -0.08px;
+}
+
+.Available:hover {
+     padding: 15px 20PX;
+}
+
+.Available:hover h1 {
+     color: #FE4A23;
+}
+
+.Available .icons {
+     margin-right: 20PX;
+     transition: 1s ease;
+}
+
+.Available:hover .icons {
+     margin-right: 0PX;
+}
+
+.ProjectAround {
+     background: linear-gradient(to right, #FEF2EB, #FAEEF4);
+     padding: 25px 10px;
+}
+
+
+
+.testimonials_card {
+     display: flex;
+     padding: 30px;
+     flex-direction: column;
+     align-items: flex-start;
+     flex: 1 0 0;
+     border-radius: 12px;
+     background: var(--White, #fff);
+
+}
+
+
+.testimonials_card p {
+     color: var(--Text-Light, #555);
+
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 32px;
+     letter-spacing: -0.144px;
+}
+
+.testimonials_card .testimonials_Image {
+     display: flex;
+     align-items: center;
+     gap: 16px;
+     align-self: stretch;
+}
+
+.testimonials_card .testimonials_Image h1 {
+     color: var(--Heading, #2B2B2B);
+     font-size: 20px;
+     font-style: normal;
+     padding: 0px;
+     font-weight: 500;
+     line-height: 28px;
+     letter-spacing: -0.1px;
+
+}
+
+.testimonials_card .testimonials_Image .img {
+     width: 64px;
+     height: 64px;
+}
+
+.testimonials_card .testimonials_Image p {
+     color: var(--Text-Light, #555);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+     /* 175% */
+     letter-spacing: -0.08px;
+
+}
+
+
+.arrow {
+     padding: 10px;
+     border-bottom: 0;
+     bottom: 10px;
+     display: flex;
+     justify-content: end;
+     gap: 30px;
+     align-items: end;
+
+}
+
+.arrow div {
+     background-color: white;
+     padding: 10px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     border: 1px solid rgba(0, 0, 0, 0.663);
+}
+
+.arrow div:hover {
+     color: white;
+     background: #FE4A23;
+     border: none;
+}

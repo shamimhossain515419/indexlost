@@ -16,7 +16,7 @@ const Navbar = () => {
      return (
           <div>
                <div>
-                    <nav className={`px-2 py-3 z-50  shadow fixed top-0 left-0 w-full transition-transform`}>
+                    <nav className={`px-2 py-3 z-50   background  shadow fixed top-0 left-0 w-full transition-transform`}>
                          <Container>
                               <div className=' '>
                                    <div className='flex justify-between items-center'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                         <div className=" hidden lg:block">
 
                                              <div className="flex gap-2 items-center">
-                                                  <Link href={'/login'}> <Button text={"login/register"}></Button></Link>
+                                                  <Link href={'/login'}> <Button paddingY={"py-[20px]"}  paddingX={"px-[20px]"} text={"login/register"}></Button></Link>
                                              </div>
 
                                         </div>

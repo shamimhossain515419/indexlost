@@ -18,6 +18,10 @@ body {
   font-style: normal;
 }
 
+.background {
+  background-color: var(--background);
+}
+
 .primaryBg {
   background: var(--Primary, #F84C03);
 }
@@ -37,4 +41,29 @@ body {
 .logo h1 span {
   font-size: 35px;
   color: var(--Primary, #F84C03)
+}
+
+.logoBlack {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+ 
+}
+
+.logoBlack h1 {
+  color: var(--Primary, #F84C03)
+}
+
+.logoBlack h1 span {
+  font-size: 35px;
+  color: var(--Primary, #fff)
+}
+
+.paragraph {
+  color: var(--Text-Light, #555);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: -0.08px;
 }

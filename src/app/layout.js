@@ -4,6 +4,7 @@ import Navbar from '@/Components/Navbar/Navbar'
 
 import Link from 'next/link'
 import Head from 'next/head'
+import Footer from '@/Components/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </div>
+        <Footer></Footer>
 
       </body>
     </html>
