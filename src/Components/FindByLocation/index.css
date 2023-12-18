@@ -1,0 +1,37 @@
+.findLocationCard {
+     border: 1px solid rgba(0, 0, 0, 0.138);
+     background-color: #fff;
+     padding: 10px;
+     border-radius: 12px;
+     font-family: -apple-system;
+}
+
+.findLocationCard .Image_card {
+     width: 100%;
+     max-height: 220px;
+     border-radius: 12px;
+     overflow: hidden;
+
+
+}
+
+.findLocationCard .Image_card .img {
+     transform: scale(1);
+     transition: 0.6s;
+      cursor: pointer;
+}
+
+.findLocationCard .Image_card img:hover {
+     transform: scale(1.1);
+}
+
+.findLocationCard h1 {
+     font-size: 22px;
+     font-weight: 600;
+     margin-bottom: 4px;
+}
+.findLocationCard p {
+     font-size: 18px;
+     font-weight: 400;
+    
+}

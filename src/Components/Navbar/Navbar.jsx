@@ -16,31 +16,34 @@ const Navbar = () => {
      return (
           <div>
                <div>
-                    <nav className={`px-2 py-3 z-50   background  shadow fixed top-0 left-0 w-full transition-transform`}>
+                    <nav className={`px-2 py-3 z-50  background    shadow fixed top-0 left-0 w-full transition-transform`}>
                          <Container>
-                              <div className=' '>
-                                   <div className='flex justify-between items-center'>
+                              <div className=' w-full  overflow-hidden '>
+                                   <div className='flex justify-between items-center '>
                                         <div className=' logo flex  items-center gap-4'>
 
                                              <Link href="/">   <h1>  <span>INDEX</span>LOST</h1> </Link>
                                         </div>
 
-                                        <div className=' hidden lg:flex items-center gap-3  space-x-5'>
-                                             <Link className={`px-2 rounded-lg ${pathName == "/" ? "activeLink" : ""} hover:bg-[#0EE6B8] hover:text-black font-medium transition-all`} href={'/'}>Home</Link>
-                                             <Link className={`px-2 rounded-lg ${pathName == "/teacher" ? "activeLink" : ""} hover:bg-[#0EE6B8] hover:text-black font-medium transition-all`} href={'/teacher'}>Teacher</Link>
-                                             <Link className={`px-2 rounded-lg ${pathName == "/courses" ? "activeLink" : ""} hover:bg-[#0EE6B8] hover:text-black font-medium transition-all`} href={'/courses'}> All Courses</Link>
-                                             <Link className={`px-2 rounded-lg ${pathName == "/blogs" ? "activeLink" : ""} hover:bg-[#0EE6B8] hover:text-black font-medium transition-all`} href={'/blogs'}>Blogs</Link>
-                                             <Link className={`px-2 rounded-lg ${pathName == "/about" ? "activeLink" : ""} hover:bg-[#0EE6B8] hover:text-black font-medium transition-all`} href={'/about'}>About</Link>
-                                             <Link className={`px-2 rounded-lg ${pathName == "/contact" ? "activeLink" : ""} hover:bg-[#0EE6B8] hover:text-black font-medium transition-all`} href={'/contact'}>Contact Us</Link>
+                                        <div  className="flex  justify-between gap-3">
 
-                                        </div>
+                                             <div className=' hidden lg:flex items-center gap-3  space-x-5'>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/'}>Home</Link>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/lost-product" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/lost-product'}>lost product</Link>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/win-product" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/win-product'}> Win Product</Link>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/blogs" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/blogs'}>Blogs</Link>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/about" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/about'}> About</Link>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/contact" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/contact'}>Contact Us</Link>
 
-                                        <div className=" hidden lg:block">
-
-                                             <div className="flex gap-2 items-center">
-                                                  <Link href={'/login'}> <Button paddingY={"py-[20px]"}  paddingX={"px-[20px]"} text={"login/register"}></Button></Link>
                                              </div>
 
+                                             <div className=" hidden lg:block">
+
+                                                  <div className="flex gap-2 items-center">
+                                                       <Link href={'/login'}> <Button paddingY={"py-[20px]"} paddingX={"px-[20px]"} text={"login/register"}></Button></Link>
+                                                  </div>
+
+                                             </div>
                                         </div>
 
                                         <div onClick={() => setOpen(!Open)} className=' lg:hidden '>

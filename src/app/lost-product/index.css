@@ -1,0 +1,41 @@
+.lostProduct {}
+
+.lostProduct .filterSection select {
+     border-radius: 8px;
+     padding: 12px;
+     color: var(--Text-Light, #555);
+     border: 1px solid var(--Border, #D5D5D5);
+     outline: none;
+}
+
+
+.selectOption {
+     border: none;
+     outline: #f84d0394;
+     border: none;
+}
+
+.selectOption:focus {
+     outline: #f84d0394;
+     border: 1px solid #f84d0394;
+}
+
+
+
+.inputFled {
+     width: 100%;
+     color: var(--Text-Light, #555);
+     display: flex;
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     align-self: stretch;
+     border-radius: 8px;
+     border: 1px solid var(--Border, #D5D5D5);
+     outline: none;
+}
+
+.inputFled:focus {
+     border: 1px solid var(--Border, #f84d0375);
+}

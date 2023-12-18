@@ -19,6 +19,8 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import SecondButton from '@/Components/Button/SecondButton';
+import FindByLocation from '@/Components/FindByLocation/FindByLocation';
+import BlogSection from '@/Components/BlogSection/BlogSection';
 
 const HomePage = () => {
      const swiperRef = useRef(null);
@@ -246,7 +248,7 @@ const HomePage = () => {
 
 
 
-
+               <FindByLocation></FindByLocation>
 
                <div className='bg-[#FFF5F1] py-12  '>
                     <Container>
@@ -272,6 +274,8 @@ const HomePage = () => {
 
 
 
+
+
                          <div className=' my-4'>
                               <Swiper
                                    ref={swiperRef}
@@ -281,7 +285,7 @@ const HomePage = () => {
                                         delay: 2500,
                                         disableOnInteraction: false,
                                    }}
-                                   
+
                                    modules={[Autoplay, Pagination, Navigation]}
                                    breakpoints={{
                                         100: {
@@ -419,6 +423,27 @@ const HomePage = () => {
                     </Container>
                </div>
 
+
+               <BlogSection></BlogSection>
+
+               {/* home sing section */}
+
+
+
+               <div className='primaryBg py-20 text-white'>
+                    <Container>
+                         <div className=' sm:flex  justify-between items-center gap-1'>
+                              <div className=' pt-3 sm:pt-0'>
+                                   <h1 className=' text-white text-base   sm:text-2xl py-1  md:text-4xl    font-extrabold '>Find Your Next Great Lost Product!</h1>
+                                   <p className=' text-lg md:text-xl  font-normal text-white '>Quisque pretium dolor turpis, quis blandit turpis semper ut. Nam malesuada eros nec luctus laoreet.</p>
+                              </div>
+                              <Link   href={'/login'} className=' pt-3 sm:pt-0'>
+                                   <SecondButton text={"sing in"} hover={" bg-[#F84C03] "} paddingY={"py-[10px]"} paddingX={"px-[50px]"}></SecondButton>
+                              </Link>
+                         </div>
+
+                    </Container>
+               </div>
 
 
           </div >

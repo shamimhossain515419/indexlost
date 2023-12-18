@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #F4F2EE;
+  --background: #FFF;
+  --font_family: -apple-system;
 
 }
 
@@ -30,6 +31,10 @@ body {
   color: var(--Primary, #F84C03);
 }
 
+.secondBg {
+  background-color: #FFF5F3;
+}
+
 .logo h1 {
 
   font-size: 30px;
@@ -47,7 +52,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
- 
+
 }
 
 .logoBlack h1 {
@@ -66,4 +71,28 @@ body {
   font-weight: 300;
   line-height: 28px;
   letter-spacing: -0.08px;
+}
+
+.boxshadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.heading-1 {
+  color: var(--Heading, #2B2B2B);
+  font-family: var(--font_family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  /* 140% */
+  letter-spacing: -0.1px;
+}
+.heading-4 {
+  color: var(--Heading, #2B2B2B);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.textColor{
+  color: var(--Heading, #2B2B2B);
 }

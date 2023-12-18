@@ -1,0 +1,47 @@
+.blogsCard {
+     display: flex;
+     padding: 32px;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 24px;
+     width: 100%;
+     border-radius: 12px;
+     border: 1px solid var(--Border, #D5D5D5);
+     background: var(--White, #FFF);
+
+
+}
+
+.blogsCard .image_container {
+     width: 100%;
+     height: 300px;
+     overflow: hidden;
+     border-radius: 15px;
+}
+
+.blogsCard .image_container .image {
+     border-radius: 15px;
+      height: 100%;
+     transform: scale(1);
+     transition: 0.5s;
+     cursor: pointer;
+
+}
+
+.blogsCard .image_container .image:hover {
+     transform: scale(1.1);
+     border-radius: 15px;
+}
+
+
+
+.blogsCard h1 {
+
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 32px;
+     letter-spacing: -0.24px;
+}
+
+ 
