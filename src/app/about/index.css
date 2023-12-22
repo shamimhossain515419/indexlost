@@ -1,0 +1,33 @@
+.team_card {
+     margin: 12px;
+     display: flex;
+     padding: 24px;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     border-radius: 12px;
+     background: var(--White, #FFF);
+
+}
+
+.team_card h1 {
+     color: var(--Heading, #2B2B2B);
+     text-align: center;
+     font-family: Readex Pro;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 28px;
+     letter-spacing: -0.1px;
+}
+
+.team_card p {
+     color: var(--Text-Light, #555);
+     text-align: center;
+     font-family: Readex Pro;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+     letter-spacing: -0.08px;
+}

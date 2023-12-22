@@ -19,7 +19,7 @@ const MenuBar = ({ user }) => {
                               <Link href={'/lost-product'} className={`${pathName == "/lost-product" ? "activeLink" : ""}`}>lost-product </Link>
                               <Link href={'/win-product'} className={`${pathName == "/win-product" ? "activeLink" : ""}`}>win-product</Link>
                               <Link href={'/courses'} className={`${pathName == "/courses" ? "activeLink" : ""}`}> All Courses</Link>
-                              <Link href={'/blogs'} className={`${pathName == "/blogs" ? "activeLink" : ""}`}> Blogs</Link>
+                              <Link href={'/blog'} className={`${pathName == "/blog" ? "activeLink" : ""}`}> Blogs</Link>
                               <Link href={'/about'} className={`${pathName == "/about" ? "activeLink" : ""}`}> About</Link>
                               <Link href={'/contact'} className={`${pathName == "/contact" ? "activeLink" : ""}`}> Contact Us</Link>
 

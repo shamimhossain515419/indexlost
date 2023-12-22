@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { BsThreeDots } from 'react-icons/bs';
@@ -97,7 +98,7 @@ const PostCard = () => {
                          <h3 className=' text-lg font-medium'> <span className='  font-bold'>  Location:  </span> Dhaka Mirpur 12  </h3>
                          <h3 className=' text-lg font-medium'> <span className='  font-bold'>   Name:  </span> Phone  </h3>
                          <h3 className=' text-lg font-medium'> <span className='  font-bold'>   Phone:  </span> 012514521444  </h3>
-                         <p className=' textColor text-sm   md:text-base  font-medium'>If "Harano" is a brand, product, or term related to a specific industry, could you please provide more details or clarify your question? This will help me better understand your request and provide you with more relevant information or assistance.</p>
+                         <p className=' textColor text-sm   md:text-base  font-medium'>If  Harano is a brand, product, or term related to a specific industry, could you please provide more details or clarify your question? This will help me better understand your request and provide you with more relevant information or assistance.</p>
                     </div>
                     <hr className=' mt-1 ' />
 

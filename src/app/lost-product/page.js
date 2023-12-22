@@ -1,19 +1,17 @@
 "use client"
 import Container from '@/Components/Container/Container';
 import Link from 'next/link';
-import React, { useState } from 'react';
-import { CiHeart, CiHome, CiShare2, CiViewBoard } from "react-icons/ci";
-import { FaChartBar, FaRegComment, FaWindows } from 'react-icons/fa';
+import { useState } from 'react';
+import { CiHome, } from "react-icons/ci";
+import { FaChartBar, FaWindows } from 'react-icons/fa';
 import { IoIosArrowForward } from 'react-icons/io';
-import { BsThreeDots } from 'react-icons/bs';
-import './index.css'
 import Button from '@/Components/Button/Button';
-import Image from 'next/image';
 import PostCard from '@/Components/PostCard/page';
-const page = () => {
+import './index.css'
+const  LostProduct = () => {
+     const [activeFilter, setActiveFilter] = useState(false);
 
-     const [action, setAction] = useState(false);
-     const [activeFilter, setActiveFilter] = useState(false)
+     const [state, setState] = useState(true);
      return (
           <div className='lostProduct'>
 
@@ -225,4 +223,4 @@ const page = () => {
      );
 };
 
-export default page; 
+export default LostProduct; 

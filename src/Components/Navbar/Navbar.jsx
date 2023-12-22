@@ -31,7 +31,7 @@ const Navbar = () => {
                                                   <Link className={`px-2 rounded-lg ${pathName == "/" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/'}>Home</Link>
                                                   <Link className={`px-2 rounded-lg ${pathName == "/lost-product" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/lost-product'}>lost product</Link>
                                                   <Link className={`px-2 rounded-lg ${pathName == "/win-product" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/win-product'}> Win Product</Link>
-                                                  <Link className={`px-2 rounded-lg ${pathName == "/blogs" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/blogs'}>Blogs</Link>
+                                                  <Link className={`px-2 rounded-lg ${pathName == "/blog" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/blog'}>Blogs</Link>
                                                   <Link className={`px-2 rounded-lg ${pathName == "/about" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/about'}> About</Link>
                                                   <Link className={`px-2 rounded-lg ${pathName == "/contact" ? "activeLink" : ""}    hover:text-[#F84C03] font-medium transition-all`} href={'/contact'}>Contact Us</Link>
 

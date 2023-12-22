@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --background: #FFF;
   --font_family: -apple-system;
@@ -87,12 +88,53 @@ body {
   /* 140% */
   letter-spacing: -0.1px;
 }
+
 .heading-4 {
   color: var(--Heading, #2B2B2B);
   font-size: 20px;
   font-weight: 600;
 }
 
-.textColor{
+.textColor {
   color: var(--Heading, #2B2B2B);
+}
+
+
+
+
+.HadingTitle {
+  color: var(--Heading, #2B2B2B);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.66px;
+}
+
+
+.apartment_form .inputFrom {
+  display: flex;
+  width: 598px;
+  padding: 52px 48px;
+  flex-direction: column;
+
+  align-items: flex-end;
+  gap: 32px;
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.orBar {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+
+}
+
+.orBar::before{
+  width: 100px;
+  height: 2px;
+  width:  10px;
+  background: black;
 }

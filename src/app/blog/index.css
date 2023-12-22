@@ -1,0 +1,55 @@
+.BlogSection .smallCard {
+     padding: 14px;
+     border-radius: 12px;
+     background: var(--White, #FFF);
+     box-shadow: 8px 16px 70px 0px rgba(41, 44, 85, 0.11);
+
+}
+
+
+.BlogSection .blogsCardBg {
+     display: flex;
+     padding: 20px;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 15px;
+     width: 100%;
+     border-radius: 12px;
+     background: var(--White, #FFF);
+     box-shadow: 8px 16px 70px 0px rgba(41, 44, 85, 0.11);
+
+}
+
+
+.BlogSection .blogsCardBg h1 {
+     color: var(--Heading, #2B2B2B);
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 32px;
+     letter-spacing: -0.24px;
+}
+
+.BlogSection .blogsCardBg p {
+     color: var(--Text-Light, #555);
+     text-align: right;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+     letter-spacing: -0.08px;
+     text-align: start;
+}
+
+
+.image {
+     width: 100%;
+}
+
+.image Image {
+     width: 100%;
+     border-radius: 12px 12px 0px 0px;
+     height: 468.601px;
+     object-fit: cover;
+     overflow: hidden;
+}

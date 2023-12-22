@@ -1,0 +1,136 @@
+.Our_Help_Center .hele_Card {
+     display: flex;
+     padding: 32px;
+     flex-direction: column;
+     align-items: center;
+     gap: 32px;
+     flex: 1 0 0;
+     border-radius: 12px;
+     background: var(--White, #FFF);
+     box-shadow: 8px 16px 40px 0px rgba(43, 43, 43, 0.10);
+}
+
+
+.Our_Help_Center .hele_Card .icon {
+     width: 72px;
+     height: 72px;
+     flex-shrink: 0;
+     border-radius: 60px;
+     background: var(--Bg-02, #F9F9F9);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.Our_Help_Center .hele_Card h1 {
+     padding: 5px 0;
+     color: var(--Heading, #2B2B2B);
+     text-align: center;
+     font-family: Readex Pro;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 32px;
+     letter-spacing: -0.24px;
+}
+
+.Our_Help_Center .hele_Card p {
+     padding: 0px;
+     margin: 5px 0;
+     color: var(--Text-Light, #555);
+     text-align: center;
+     font-family: Readex Pro;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 22px;
+     letter-spacing: -0.08px;
+}
+
+
+
+
+
+/* from csss  */
+
+
+
+
+
+
+.apartment_form form {
+
+     display: flex;
+     width: 100%;
+     padding: 52px 48px;
+     flex-direction: column;
+     align-items: start;
+     gap: 32px;
+     border-radius: 12px;
+     background: var(--White, #FFF);
+
+}
+
+
+
+
+
+.apartment_form form div label {
+     color: var(--Heading, #2B2B2B);
+     font-family: Readex Pro;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px;
+     letter-spacing: -0.144px;
+     padding: 5px 0;
+}
+
+.apartment_form form div label span {
+     color: var(--Primary, #F84C03);
+     font-family: Readex Pro;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 32px;
+     letter-spacing: -0.144px;
+     top: 20PX;
+}
+
+
+.apartment_form form div input {
+     width: 100%;
+     color: var(--Text-Light, #555);
+     display: flex;
+     padding: 16px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     align-self: stretch;
+     border-radius: 8px;
+     border: 1px solid var(--Border, #D5D5D5);
+     outline: none;
+}
+
+.apartment_form form div input:focus {
+     border: 1px solid var(--Border, #377DFF);
+}
+
+.apartment_form form div textarea {
+     width: 100%;
+     color: var(--Text-Light, #555);
+     display: flex;
+     padding: 16px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     align-self: stretch;
+     border-radius: 8px;
+     border: 1px solid var(--Border, #D5D5D5);
+     outline: none;
+}
+
+textarea:focus {
+     border: 1px solid var(--Border, #377DFF);
+}
