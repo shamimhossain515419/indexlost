@@ -5,6 +5,7 @@ import Navbar from '@/Components/Navbar/Navbar'
 import Link from 'next/link'
 import Head from 'next/head'
 import Footer from '@/Components/Footer/Footer'
+import GlobalState from '@/Controlar/GlobalState/GlobalState'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,14 +25,18 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body >
-        <Navbar></Navbar>
 
-        <div className='   mt-[86px]'>
-          <div className=' min-h-[50vh] '>
-            {children}
+        <GlobalState>
+          <Navbar></Navbar>
+
+          <div className='   mt-[86px]'>
+            <div className=' min-h-[50vh] '>
+              {children}
+            </div>
           </div>
-        </div>
-        <Footer></Footer>
+          <Footer></Footer>
+        </GlobalState>
+
 
       </body>
     </html>

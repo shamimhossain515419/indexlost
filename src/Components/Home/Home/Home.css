@@ -1,5 +1,5 @@
 .banner {
-     background: linear-gradient(to right, #FAEEF3, #FEF2EC);
+     background: linear-gradient(to right, #E4F2FE, #F2EDFB);
      width: 100%;
      padding: 10px;
      min-height: 400px;
@@ -50,10 +50,10 @@
 
 
 .SearchButton {
-     background: #FE4A23;
+     background: #4F46E5;
      border-radius: 50px !important;
      font-weight: bold;
-     border: 1px solid #FE4A23;
+     border: 1px solid #4F46E5;
      color: #fff;
      line-height: 18px;
      padding: 15px 35px;
@@ -64,9 +64,9 @@
 }
 
 .SearchButton:hover {
-     background: var(--Heading, #2B2B2B);
+     background: var(--Heading, #1D9BF0);
 
-     border: 1px solid #2B2B2B;
+     border: 1px solid #1D9BF0;
 }
 
 .counter_up li span {
@@ -123,7 +123,7 @@
 }
 
 .Available:hover h1 {
-     color: #FE4A23;
+     color: #4F46E5;
 }
 
 .Available .icons {
@@ -136,7 +136,7 @@
 }
 
 .ProjectAround {
-     background: linear-gradient(to right, #FEF2EB, #FAEEF4);
+     background: linear-gradient(to right, #E4F2FE,#FCFDFF, #F2EDFB);
      padding: 25px 10px;
 }
 

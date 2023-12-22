@@ -60,20 +60,20 @@ const BlogSection = () => {
                     >
 
                          <SwiperSlide >
-                              <div class="blogsCard">
-                                   <div class="image_container ">
-                                        <Image class="image" src={blog1} alt="" />
+                              <div className="blogsCard">
+                                   <div className="image_container ">
+                                        <Image className="image" src={blog1} alt="" />
                                    </div>
                                    <div>
-                                        <div class="flex  justify-between    items-center   gap-2">
-                                             <div class=" flex   items-center    gap-3">
+                                        <div className="flex  justify-between    items-center   gap-2">
+                                             <div className=" flex   items-center    gap-3">
                                                   <div>
                                                        <FaUser className=' primaryColor' size={18}></FaUser>
                                                   </div>
                                                   <div> By Johnson</div>
                                              </div>
-                                             <div class=" flex   items-center    gap-3">
-                                                  <div class=" flex   items-center    gap-3">
+                                             <div className=" flex   items-center    gap-3">
+                                                  <div className=" flex   items-center    gap-3">
                                                        <div>
                                                             <FaCalendar className=' primaryColor' size={18}></FaCalendar>
                                                        </div>
@@ -84,7 +84,7 @@ const BlogSection = () => {
                                              </div>
                                         </div>
                                         <div>
-                                             <h1 class="my-2"> The Significance of User-Centered Design</h1>
+                                             <h1 className="my-2"> The Significance of User-Centered Design</h1>
                                              <p className=" paragraph ">Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas.
                                                   Proin auctor egestas habitasse a sem vel dapibus nulla.</p>
                                         </div>
@@ -95,20 +95,20 @@ const BlogSection = () => {
                               </div>
                          </SwiperSlide>
                          <SwiperSlide >
-                              <div class="blogsCard">
-                                   <div class="image_container ">
-                                        <Image class="image" src={blog2} alt="" />
+                              <div className="blogsCard">
+                                   <div className="image_container ">
+                                        <Image className="image" src={blog2} alt="" />
                                    </div>
                                    <div>
-                                        <div class="flex  justify-between    items-center   gap-2">
-                                             <div class=" flex   items-center    gap-3">
+                                        <div className="flex  justify-between    items-center   gap-2">
+                                             <div className=" flex   items-center    gap-3">
                                                   <div>
                                                        <FaUser className=' primaryColor' size={18}></FaUser>
                                                   </div>
                                                   <div> By Johnson</div>
                                              </div>
-                                             <div class=" flex   items-center    gap-3">
-                                                  <div class=" flex   items-center    gap-3">
+                                             <div className=" flex   items-center    gap-3">
+                                                  <div className=" flex   items-center    gap-3">
                                                        <div>
                                                             <FaCalendar className=' primaryColor' size={18}></FaCalendar>
                                                        </div>
@@ -119,7 +119,7 @@ const BlogSection = () => {
                                              </div>
                                         </div>
                                         <div>
-                                             <h1 class="my-2"> The Significance of User-Centered Design</h1>
+                                             <h1 className="my-2"> The Significance of User-Centered Design</h1>
                                              <p className=" paragraph ">Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas.
                                                   Proin auctor egestas habitasse a sem vel dapibus nulla.</p>
                                         </div>
@@ -130,20 +130,20 @@ const BlogSection = () => {
                               </div>
                          </SwiperSlide>
                          <SwiperSlide >
-                              <div class="blogsCard">
-                                   <div class="image_container ">
-                                        <Image class="image" src={blog3} alt="" />
+                              <div className="blogsCard">
+                                   <div className="image_container ">
+                                        <Image className="image" src={blog3} alt="" />
                                    </div>
                                    <div>
-                                        <div class="flex  justify-between    items-center   gap-2">
-                                             <div class=" flex   items-center    gap-3">
+                                        <div className="flex  justify-between    items-center   gap-2">
+                                             <div className=" flex   items-center    gap-3">
                                                   <div>
                                                        <FaUser className=' primaryColor' size={18}></FaUser>
                                                   </div>
                                                   <div> By Johnson</div>
                                              </div>
-                                             <div class=" flex   items-center    gap-3">
-                                                  <div class=" flex   items-center    gap-3">
+                                             <div className=" flex   items-center    gap-3">
+                                                  <div className=" flex   items-center    gap-3">
                                                        <div>
                                                             <FaCalendar className=' primaryColor' size={18}></FaCalendar>
                                                        </div>
@@ -154,7 +154,7 @@ const BlogSection = () => {
                                              </div>
                                         </div>
                                         <div>
-                                             <h1 class="my-2"> The Significance of User-Centered Design</h1>
+                                             <h1 className="my-2"> The Significance of User-Centered Design</h1>
                                              <p className=" paragraph ">Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas.
                                                   Proin auctor egestas habitasse a sem vel dapibus nulla.</p>
                                         </div>
@@ -165,20 +165,20 @@ const BlogSection = () => {
                               </div>
                          </SwiperSlide>
                          <SwiperSlide >
-                              <div class="blogsCard">
-                                   <div class="image_container ">
-                                        <Image class="image" src={blog4} alt="" />
+                              <div className="blogsCard">
+                                   <div className="image_container ">
+                                        <Image className="image" src={blog4} alt="" />
                                    </div>
                                    <div>
-                                        <div class="flex  justify-between    items-center   gap-2">
-                                             <div class=" flex   items-center    gap-3">
+                                        <div className="flex  justify-between    items-center   gap-2">
+                                             <div className=" flex   items-center    gap-3">
                                                   <div>
                                                        <FaUser className=' primaryColor' size={18}></FaUser>
                                                   </div>
                                                   <div> By Johnson</div>
                                              </div>
-                                             <div class=" flex   items-center    gap-3">
-                                                  <div class=" flex   items-center    gap-3">
+                                             <div className=" flex   items-center    gap-3">
+                                                  <div className=" flex   items-center    gap-3">
                                                        <div>
                                                             <FaCalendar className=' primaryColor' size={18}></FaCalendar>
                                                        </div>
@@ -189,7 +189,7 @@ const BlogSection = () => {
                                              </div>
                                         </div>
                                         <div>
-                                             <h1 class="my-2"> The Significance of User-Centered Design</h1>
+                                             <h1 className="my-2"> The Significance of User-Centered Design</h1>
                                              <p className=" paragraph ">Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas.
                                                   Proin auctor egestas habitasse a sem vel dapibus nulla.</p>
                                         </div>

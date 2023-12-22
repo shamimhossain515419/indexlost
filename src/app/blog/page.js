@@ -20,24 +20,24 @@ const Blog = () => {
 
                <Container>
 
-                    <div class="BlogSection mt-8 py-5">
-                         <div class="  md:flex  justify-start   gap-4">
-                              <div class=" w-100 ">
-                                   <div class=" blogsCardBg">
+                    <div className="BlogSection mt-8 py-5">
+                         <div className="  md:flex  justify-start   gap-4">
+                              <div className=" w-100 ">
+                                   <div className=" blogsCardBg">
 
-                                        <div class="image">
-                                             <Image class=" w-full  rounded-t-md" src={viewImage} alt="" />
+                                        <div className="image">
+                                             <Image className=" w-full  rounded-t-md" src={viewImage} alt="" />
                                         </div>
                                         <div>
-                                             <div class=" flex  justify-between  align-center gap-2">
-                                                  <div class=" flex   justify-center  gap-3">
+                                             <div className=" flex  justify-between  align-center gap-2">
+                                                  <div className=" flex   justify-center  gap-3">
                                                        <div className=' primaryColor'>
                                                             <CiUser size={20} />
                                                        </div>
                                                        <div> By Johnson</div>
                                                   </div>
-                                                  <div class=" flex  items-center gap-3">
-                                                       <div class="  flex justify-center gap-3">
+                                                  <div className=" flex  items-center gap-3">
+                                                       <div className="  flex justify-center gap-3">
                                                             <div className=' primaryColor'>
                                                                  <FaRegCalendarAlt size={20} />
                                                             </div>
@@ -48,7 +48,7 @@ const Blog = () => {
                                                   </div>
                                              </div>
                                              <div>
-                                                  <h1 class="my-2"> The shocking revelation of our insurance.</h1>
+                                                  <h1 className="my-2"> The shocking revelation of our insurance.</h1>
                                                   <p>Lorem ipsum dolor sit amet consectetur. Amet dolor egestas fringilla
                                                        imperdiet
                                                        justo eget. Tristique sagittis pretium nulla tellus lectus rhoncus eget.
@@ -61,14 +61,14 @@ const Blog = () => {
 
                                    </div>
                               </div>
-                              <div class=" flex   flex-col gap-7  justify-between  items-center      ">
-                                   <div class=" smallCard  sm:flex   justify-start  items-center gap-2 h-full">
+                              <div className=" flex   flex-col gap-7  justify-between  items-center      ">
+                                   <div className=" smallCard  sm:flex   justify-start  items-center gap-2 h-full">
                                         <div className=' h-full w-full rounded-md'>
                                              <Image className='h-full w-full  rounded-md overflow-hidden ' src={image1} alt="" />
                                         </div>
                                         <div>
                                              <h1 className=' text-lg md:text-[22px]  font-medium '> World leading technical company since 1997</h1>
-                                             <div class=" flex pt-3 items-center gap-3 justify-start">
+                                             <div className=" flex pt-3 items-center gap-3 justify-start">
                                                   <p>By Johnson</p>
                                                   <hr className=' w-[2px] h-[15px] bg-black ' />
                                                   <p>23 Sep, 2023</p>
@@ -76,14 +76,14 @@ const Blog = () => {
                                         </div>
 
                                    </div>
-                                   <div class=" smallCard  sm:flex  justify-start  items-center gap-2 h-full">
+                                   <div className=" smallCard  sm:flex  justify-start  items-center gap-2 h-full">
                                         <div className=' h-full  w-full'>
                                              <Image className=' h-full w-full rounded-md ' src={image2} alt="" />
                                         </div>
                                         <div>
                                              <h1 className=' text-lg md:text-[22px]  font-medium '> World leading technical company since 1997</h1>
 
-                                             <div class=" flex pt-3 align-items-center gap-2 justify-content-start">
+                                             <div className=" flex pt-3 align-items-center gap-2 justify-content-start">
                                                   <p>By Johnson</p>
                                                   <hr className='  w-[2px] h-[15px] bg-black ' />
                                                   <p>23 Sep, 2023</p>
@@ -91,14 +91,14 @@ const Blog = () => {
                                         </div>
 
                                    </div>
-                                   <div class=" smallCard sm:flex   justify-start  items-center gap-2 h-full">
+                                   <div className=" smallCard sm:flex   justify-start  items-center gap-2 h-full">
                                         <div className=' h-full w-full'>
                                              <Image className='h-full w-full rounded-md ' src={image3} alt="" />
                                         </div>
                                         <div>
                                              <h1 className=' text-lg md:text-[22px]  font-medium '> World leading technical company since 1997</h1>
 
-                                             <div class=" flex pt-3 items-center gap-2 justify-start">
+                                             <div className=" flex pt-3 items-center gap-2 justify-start">
                                                   <p className='text-[16px]'>By Johnson</p>
                                                   <hr className='  w-[2px] h-[15px] bg-black ' />
                                                   <p className='text-[16px]'>23 Sep, 2023</p>

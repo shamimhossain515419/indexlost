@@ -22,7 +22,7 @@ const FindByLocation = () => {
                     <div className=' sm:flex justify-between items-end gap-5'>
                          <SectionTitle paragraph={"Find your favourite jobs and get the benefits of yourself"} title_1={"Find by"} title_2={"Location"}></SectionTitle>
                          <div className=' mt-5 sm:mt-0'>
-                              <Button paddingX={"px-[30px]"} paddingY={"py-[20px]"} hover={" hover:bg-[#131135]"} text={"All Location"}> </Button>
+                              <Button paddingX={"px-[30px]"} paddingY={"py-[20px]"} hover={" hover:bg-[#1D9BF0]"} text={"All Location"}> </Button>
                          </div>
                     </div>
 

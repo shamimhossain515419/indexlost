@@ -25,11 +25,11 @@ body {
 }
 
 .primaryBg {
-  background: var(--Primary, #F84C03);
+  background: var(--Primary, #4F46E5);
 }
 
 .primaryColor {
-  color: var(--Primary, #F84C03);
+  color: var(--Primary, #4F46E5);
 }
 
 .secondBg {
@@ -46,7 +46,7 @@ body {
 
 .logo h1 span {
   font-size: 35px;
-  color: var(--Primary, #F84C03)
+  color: var(--Primary, #4F46E5)
 }
 
 .logoBlack {
@@ -57,7 +57,7 @@ body {
 }
 
 .logoBlack h1 {
-  color: var(--Primary, #F84C03)
+  color: var(--Primary, #4F46E5)
 }
 
 .logoBlack h1 span {

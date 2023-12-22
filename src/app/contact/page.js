@@ -18,14 +18,14 @@ const ContactPage = () => {
                <Container>
 
                     <div>
-                         <div class="">
+                         <div className="">
 
 
-                              <div class=" Our_Help_Center  grid md:grid-cols-3 py-10">
+                              <div className=" Our_Help_Center  grid md:grid-cols-3 py-10">
 
-                                   <div class="    p-3">
-                                        <div class="hele_Card">
-                                             <div class=" icon">
+                                   <div className="    p-3">
+                                        <div className="hele_Card">
+                                             <div className=" icon">
                                                   <MdWifiCalling1 className=' primaryColor' size={24} />
                                              </div>
                                              <div>
@@ -38,9 +38,9 @@ const ContactPage = () => {
 
                                         </div>
                                    </div>
-                                   <div class="  p-3">
-                                        <div class="hele_Card">
-                                             <div class=" icon">
+                                   <div className="  p-3">
+                                        <div className="hele_Card">
+                                             <div className=" icon">
                                              <CiMail className=' primaryColor' size={24} />
                                              </div>
                                              <div>
@@ -53,9 +53,9 @@ const ContactPage = () => {
 
                                         </div>
                                    </div>
-                                   <div class="   p-3">
-                                        <div class="hele_Card">
-                                             <div class=" icon">
+                                   <div className="   p-3">
+                                        <div className="hele_Card">
+                                             <div className=" icon">
                                              <TiLocation className=' primaryColor' size={24} />
                                              </div>
                                              <div>
@@ -74,21 +74,21 @@ const ContactPage = () => {
                               </div>
                          </div>
 
-                         <div class="   py-3 ">
-                              <div class=" ">
-                                   <div class=" apartment_form grid   md:grid-cols-2 gap-11 ">
-                                        <div class="  w-100  p-5">
-                                             <h1 class=" HadingTitle"> Love to hear from you, leave a message</h1>
-                                             <div class="py-5">
-                                                  <Image class=" img-fluid" src={image} alt="" />
+                         <div className="   py-3 ">
+                              <div className=" ">
+                                   <div className=" apartment_form grid   md:grid-cols-2 gap-11 ">
+                                        <div className="  w-100  p-5">
+                                             <h1 className=" HadingTitle"> Love to hear from you, leave a message</h1>
+                                             <div className="py-5">
+                                                  <Image className=" img-fluid" src={image} alt="" />
                                              </div>
 
                                         </div>
-                                        <div class=" inputFrom shadow w-100  px-5 py-3">
+                                        <div className=" inputFrom shadow w-100  px-5 py-3">
 
                                              <form action="">
 
-                                                  <div class=" flex items-center gap-3 ">
+                                                  <div className=" flex items-center gap-3 ">
                                                        <div className=' w-full'>
                                                             <label for="">Last name <span>*</span></label>
                                                             <input className=' w-full' type="text" name="" placeholder="Enter last name" id="" />
@@ -106,7 +106,7 @@ const ContactPage = () => {
                                                        <label for="">Message <span>*</span></label>
                                                        <textarea className=' w-full' name="" placeholder="Type here" id="" cols="30" rows="5"></textarea>
                                                   </div>
-                                                  <div class=" flex justify-end  w-full ">
+                                                  <div className=" flex justify-end  w-full ">
                                                         <div className=' cursor-pointer'>
                                                         <Button  text={"Send message"} paddingX={"px-[30px]"}  paddingY={"py-[15px]"}  ></Button>
                                                         </div>

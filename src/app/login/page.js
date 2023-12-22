@@ -2,19 +2,30 @@
 "use client"
 import Button from '@/Components/Button/Button';
 import Container from '@/Components/Container/Container';
+import { AuthContact } from '@/Controlar/GlobalState/GlobalState';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
+import Swal from 'sweetalert2';
 
 const Login = () => {
 
      const [data, setSata] = useState(false);
      const [showPassword, setShowPassword] = useState(false);
+     const { GoogleLogin } = useContext(AuthContact)
 
      // Handler function to toggle the state
      const handleShowPasswordToggle = () => {
           setShowPassword(!showPassword);
      };
+
+     const handleGoogle = async () => {
+          const result = await GoogleLogin();
+          if (result.user?.email) {
+               Swal.fire("SweetAlert2 is working!");
+          }
+     }
+
      return (
           <div>
 
@@ -62,7 +73,7 @@ const Login = () => {
                                         </div>
 
                                         <div className='  flex justify-between gap-2'>
-                                             <div className=' w-full flex justify-center
+                                             <div onClick={handleGoogle} className=' w-full flex justify-center
                                          items-center gap-1 p-2 rounded-md text-white cursor-pointer   primaryBg'>
                                                   <FaGoogle size={24} />
                                              </div>
@@ -76,9 +87,9 @@ const Login = () => {
                               </div>
 
                               <div>
-                                   <div  className='  flex justify-center gap-2 items-center'>
-                                        <p className=' text-base  md:text-xl font-medium  textColor'>Don't have an account? </p>
-                                        <Link  className=' text-base  md:text-xl font-medium   text-blue-500 '  href={'/register'}>Sign Up</Link>
+                                   <div className='  flex justify-center gap-2 items-center'>
+                                        <p className=' text-base  md:text-xl font-medium  textColor'>Don not have an account? </p>
+                                        <Link className=' text-base  md:text-xl font-medium   text-blue-500 ' href={'/register'}>Sign Up</Link>
 
                                    </div>
                               </div>

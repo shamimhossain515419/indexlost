@@ -17,91 +17,91 @@ const AboutPage = () => {
 
                <Container>
                     <div>
-                         <div class="   py-5">
-                              <div class=" Container">
+                         <div className="   py-5">
+                              <div className=" Container">
                                    <div>
                                         <div>
                                              <SectionTitle alignment={"text-center"} title_1={"Our "} title_2={"Team"} paragraph={"Meet our creative team"}></SectionTitle>
 
                                         </div>
 
-                                        <div class=" sm:grid sm:grid-2  md:grid-cols-3 xl:grid-cols-4  gap-3 ">
-                                             <div class="team_card shadow">
+                                        <div className=" sm:grid sm:grid-2  md:grid-cols-3 xl:grid-cols-4  gap-3 ">
+                                             <div className="team_card shadow">
                                                   <div>
                                                        <Image src={image1} alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                        <Image src={image2} alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                   <Image src={image3} alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                   <Image src={image4}  alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                   <Image src={image4}  alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
 
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                   <Image src={image3} alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                   <Image src={image4}  alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>
 
                                              </div>
-                                             <div class="team_card shadow">
+                                             <div className="team_card shadow">
                                                   <div>
                                                   <Image src={image1}  alt="" />
                                                   </div>
-                                                  <div class=" my-3">
+                                                  <div className=" my-3">
                                                        <h1>Faye Carson </h1>
                                                        <p>Instructor</p>
                                                   </div>

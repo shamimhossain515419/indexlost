@@ -4,7 +4,7 @@
      align-items: center;
      gap: 10px;
      border-radius: 8px;
-     background: var(--Primary, #F84C03);
+     background: var(--Primary, #4F46E5);
 }
 
 .button button {
@@ -22,7 +22,7 @@
      align-items: center;
      gap: 10px;
      border-radius: 8px;
-     background: var(--Primary, #131135);
+     background: var(--Primary, #1D9BF0);
 }
 
 .secondButton button {

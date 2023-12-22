@@ -50,7 +50,7 @@ const HomePage = () => {
                               <div>
                                    <div>
                                         <div className=' flex items-center gap-2'>
-                                             <div className=' p-2 rounded text-white bg-[#2B2B2B] inline-block'>
+                                             <div className=' p-2 rounded text-white primaryBg inline-block'>
                                                   <FaCheck size={24} />
                                              </div>
                                              <h2 className=' text-xl md:text-3xl font-bold  primaryColor'>  Stay connected with indexLost  to find  lost products</h2>
@@ -229,8 +229,8 @@ const HomePage = () => {
                                         <div className='  py-4'>
 
                                              <div className=' flex gap-5 items-center '>
-                                                  <Button hover={" hover:bg-[#131135] "} paddingY={"py-[10px]"} paddingX={"px-[40px]"} text={"View Post"}> </Button>
-                                                  <SecondButton hover={" hover:bg-[#F84C03] "} paddingY={"py-[10px]"} paddingX={"px-[40px]"} text={"Create Post"}> </SecondButton>
+                                                  <Button hover={" hover:bg-[#1D9BF0] "} paddingY={"py-[10px]"} paddingX={"px-[40px]"} text={"View Post"}> </Button>
+                                                  <SecondButton hover={" hover:bg-[#4F46E5] "} paddingY={"py-[10px]"} paddingX={"px-[40px]"} text={"Create Post"}> </SecondButton>
 
                                              </div>
                                         </div>
@@ -310,9 +310,9 @@ const HomePage = () => {
                                    className="custom-grid"
                               >
                                    <SwiperSlide >
-                                        <div class="testimonials_card ">
-                                             <div class=" p-2">
-                                                  <div class=" py-3 flex gap-2 text-[#FCB300] items-center">
+                                        <div className="testimonials_card ">
+                                             <div className=" p-2">
+                                                  <div className=" py-3 flex gap-2 text-[#FCB300] items-center">
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
@@ -326,8 +326,8 @@ const HomePage = () => {
                                                             Lectus amet
                                                             erat aliquet ad ipiscing.</p>
                                                   </div>
-                                                  <div class=" testimonials_Image   pt-3   ">
-                                                       <Image class="img" src={testimonials} alt="" />
+                                                  <div className=" testimonials_Image   pt-3   ">
+                                                       <Image className="img" src={testimonials} alt="" />
                                                        <div>
                                                             <h1>CEO at Google</h1>
                                                             <p>Doe Williamson</p>
@@ -337,9 +337,9 @@ const HomePage = () => {
                                         </div>
                                    </SwiperSlide>
                                    <SwiperSlide >
-                                        <div class="testimonials_card ">
-                                             <div class=" p-2">
-                                                  <div class=" py-3 flex gap-2 text-[#FCB300] items-center">
+                                        <div className="testimonials_card ">
+                                             <div className=" p-2">
+                                                  <div className=" py-3 flex gap-2 text-[#FCB300] items-center">
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
@@ -353,8 +353,8 @@ const HomePage = () => {
                                                             Lectus amet
                                                             erat aliquet ad ipiscing.</p>
                                                   </div>
-                                                  <div class=" testimonials_Image   pt-3   ">
-                                                       <Image class="img" src={testimonials} alt="" />
+                                                  <div className=" testimonials_Image   pt-3   ">
+                                                       <Image className="img" src={testimonials} alt="" />
                                                        <div>
                                                             <h1>CEO at Google</h1>
                                                             <p>Doe Williamson</p>
@@ -364,9 +364,9 @@ const HomePage = () => {
                                         </div>
                                    </SwiperSlide>
                                    <SwiperSlide >
-                                        <div class="testimonials_card ">
-                                             <div class=" p-2">
-                                                  <div class=" py-3 flex gap-2 text-[#FCB300] items-center">
+                                        <div className="testimonials_card ">
+                                             <div className=" p-2">
+                                                  <div className=" py-3 flex gap-2 text-[#FCB300] items-center">
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
@@ -380,8 +380,8 @@ const HomePage = () => {
                                                             Lectus amet
                                                             erat aliquet ad ipiscing.</p>
                                                   </div>
-                                                  <div class=" testimonials_Image   pt-3   ">
-                                                       <Image class="img" src={testimonials} alt="" />
+                                                  <div className=" testimonials_Image   pt-3   ">
+                                                       <Image className="img" src={testimonials} alt="" />
                                                        <div>
                                                             <h1>CEO at Google</h1>
                                                             <p>Doe Williamson</p>
@@ -391,9 +391,9 @@ const HomePage = () => {
                                         </div>
                                    </SwiperSlide>
                                    <SwiperSlide >
-                                        <div class="testimonials_card ">
-                                             <div class=" p-2">
-                                                  <div class=" py-3 flex gap-2 text-[#FCB300] items-center">
+                                        <div className="testimonials_card ">
+                                             <div className=" p-2">
+                                                  <div className=" py-3 flex gap-2 text-[#FCB300] items-center">
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
                                                        <FaStar size={20} />
@@ -407,8 +407,8 @@ const HomePage = () => {
                                                             Lectus amet
                                                             erat aliquet ad ipiscing.</p>
                                                   </div>
-                                                  <div class=" testimonials_Image   pt-3   ">
-                                                       <Image class="img" src={testimonials} alt="" />
+                                                  <div className=" testimonials_Image   pt-3   ">
+                                                       <Image className="img" src={testimonials} alt="" />
                                                        <div>
                                                             <h1>CEO at Google</h1>
                                                             <p>Doe Williamson</p>

@@ -25,38 +25,38 @@ const Footer = () => {
                          </div>
                          <div>
                               <h1 className=' text-[26px] text-white pb-2' > Help & Supports</h1>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>   About Us</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>Blogs</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Login</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Registers</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>  Forgot Password</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>   About Us</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>Blogs</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Login</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Registers</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>  Forgot Password</Link>
 
                          </div>
                          <div>
                               <h1 className=' text-[26px] text-white pb-2' > Other Links</h1>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>   About Us</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>Contact</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Login</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Registers</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>  Forgot Password</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>   About Us</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>Contact</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Login</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Registers</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>  Forgot Password</Link>
 
                          </div>
                          <div>
                               <h1 className=' text-[26px] text-white pb-2' > Other Links</h1>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>   About Us</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>Contact</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Login</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Registers</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>  Forgot Password</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>   About Us</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>Contact</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Login</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Registers</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>  Forgot Password</Link>
 
                          </div>
                          <div>
                               <h1 className=' text-[26px] text-white pb-2' > Follow us</h1>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>   Facebook</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>Instagram</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Twitter</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}> Linkedin</Link>
-                              <Link className=' block my-1 text-[22x] hover:text-[#F84C03] duration-300 hover:ml-3' href={'/'}>  Github</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>   Facebook</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>Instagram</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Twitter</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}> Linkedin</Link>
+                              <Link className=' block my-1 text-[22x] hover:text-[#4F46E5] duration-300 hover:ml-3' href={'/'}>  Github</Link>
 
                          </div>
 
