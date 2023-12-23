@@ -138,3 +138,16 @@ body {
   width:  10px;
   background: black;
 }
+/* modalBg section  */
+.modalBg{
+  background: linear-gradient(to right, #E4F2FE, #F2EDFB);
+}
+
+.gradientText{
+  font-family: 'Arial', sans-serif;
+  font-size: 3em;
+  background: linear-gradient(to right, #4F46E5 , #1d9cf0e0);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0;
+}

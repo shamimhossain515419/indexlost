@@ -4,6 +4,7 @@ import Button from '@/Components/Button/Button';
 import Container from '@/Components/Container/Container';
 import { AuthContact } from '@/Controlar/GlobalState/GlobalState';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import React, { useContext, useState } from 'react';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 import Swal from 'sweetalert2';
@@ -12,7 +13,8 @@ const Login = () => {
 
      const [data, setSata] = useState(false);
      const [showPassword, setShowPassword] = useState(false);
-     const { GoogleLogin } = useContext(AuthContact)
+     const { GoogleLogin, Login } = useContext(AuthContact);
+     const router = useRouter();
 
      // Handler function to toggle the state
      const handleShowPasswordToggle = () => {
@@ -22,8 +24,24 @@ const Login = () => {
      const handleGoogle = async () => {
           const result = await GoogleLogin();
           if (result.user?.email) {
-               Swal.fire("SweetAlert2 is working!");
+               Swal.fire(` Welcome Indexlost `);
+               router.push('/')
           }
+     };
+
+
+     const handleSubmit = async (e) => {
+          e.preventDefault();
+          const from = e.target;
+          const email = from.email.value;
+          const password = from.password.value;
+          const result = await Login(email, password);
+          console.log(result );
+          if (result?.user?.email) {
+               Swal.fire(` Welcome Indexlost `);
+               router.push('/')
+          }
+
      }
 
      return (
@@ -38,14 +56,14 @@ const Login = () => {
                          <div className=''>
                               <div className=' py-7 max-w-[500px]  mx-auto'>
                                    <div className=' p-8  shadow rounded-lg'>
-                                        <form action="">
+                                        <form onSubmit={handleSubmit} action="">
                                              <div className=" py-3  w-full ">
                                                   <label className=' text-base  md:text-lg  font-medium' htmlFor="">Email address *</label>
-                                                  <input className=' my-2 p-2 border  shadow focus:outline-[#F84C03] border-[#2B2B2B] block w-full rounded-md' type="email" placeholder='Ex: example@gmail.com' name="" id="" />
+                                                  <input className=' my-2 p-2 border  shadow focus:outline-[#F84C03] border-[#2B2B2B] block w-full rounded-md' type="email" placeholder='Ex: example@gmail.com' name="email" id="" />
                                              </div>
                                              <div className=" py-3  w-full ">
                                                   <label className=' text-base  md:text-lg  font-medium' htmlFor="">Password * </label>
-                                                  <input className=' my-2 p-2 border  shadow focus:outline-[#F84C03] border-[#2B2B2B] block w-full rounded-md' type={showPassword ? "text" : "password"} placeholder='' name="" id="" />
+                                                  <input className=' my-2 p-2 border  shadow focus:outline-[#F84C03] border-[#2B2B2B] block w-full rounded-md' type={showPassword ? "text" : "password"} placeholder='' name="password" id="" />
                                              </div>
                                              <div className=' flex  justify-between gap-3'>
                                                   <div className='cursor-pointer flex items-center gap-2'>
@@ -62,7 +80,7 @@ const Login = () => {
                                                        <button className=' text-lg font-bold text-blue-500 '>forgot password?</button>
                                                   </div>
                                              </div>
-                                             <div className=' my-5'>
+                                             <div type={'submit'} className=' my-5'>
                                                   <Button paddingX={"px-[30px]"} paddingY={"py-[15px]"} hover={"bg-[#000]"} text={"Sing in"}></Button>
                                              </div>
                                         </form>

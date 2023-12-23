@@ -17,12 +17,12 @@ import {
 const GlobalState = ({ children }) => {
 
      const Auth = getAuth(app)
-     const [user, setUser] = useState(false)
+     const [user, setUser] = useState({})
      const [open, setOpen] = useState(false)
      const [loading, setLoading] = useState(true)
      const [showModal, setShowModal] = useState(false)
      const GoogleProvider = new GoogleAuthProvider();
-
+     const [error, setError] = useState("");
 
 
      const Sign_Up = async (email, password) => {
@@ -38,7 +38,10 @@ const GlobalState = ({ children }) => {
      }
 
      const profileUpdate = async (name, photo) => {
-          const result = await updateProfile(name, photo);
+          const result = await updateProfile(Auth.currentUser, {
+               displayName: name, photoURL: photo
+          })
+
           return result
      }
      const Sing_out = async () => {
@@ -47,8 +50,8 @@ const GlobalState = ({ children }) => {
      }
 
      const GoogleLogin = async () => {
-            const result=await signInWithPopup(Auth, GoogleProvider);
-            return result
+          const result = await signInWithPopup(Auth, GoogleProvider);
+          return result
      }
 
 
@@ -65,7 +68,7 @@ const GlobalState = ({ children }) => {
 
      const authInfo = {
           user, open, setOpen, showModal, setShowModal, Sign_Up, Login, profileUpdate, GoogleLogin, Sing_out
-          , loading
+          , loading, error, setError
 
      }
 
